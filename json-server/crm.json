@@ -1,0 +1,60 @@
+{
+  "users" : [
+    {
+      "id": 1,
+      "name" : "O_abdulloh",  
+      "img" : "./img/photo_2022-06-03_16-16-22.jpg",
+      "likes" : "122002 likes"
+    },
+    {
+      "id": 2,
+      "name" : "k_karim",
+      "img" : "https://old.davydov.in/wp-content/uploads/2019/02/origin.jpg",
+      "likes" : "133222 likes"
+    },
+    {
+      "id": 3,
+      "name" : "i_islom",
+      "img" : "https://user72902.clients-cdnnow.ru/localStorage/news/ac/71/93/52/ac719352.jpg",
+      "likes" : "1288822 likes"
+    },
+    {
+      "id": 4,
+      "name" : "l_lox",
+      "img" : "https://mediasubs.ru/author/avatar/24718581.png",
+      "likes" : "122662 likes"
+    },
+    {
+      "id": 5,
+      "name": "m_muslima",
+      "img" : "https://k6r7m2d4.stackpathcdn.com/wp-content/uploads/2012/07/smiling-girl.jpg",
+      "likes" : "12223212 likes"
+    },
+    {
+      "id": 6,
+      "name" : "p_pidor",
+      "img" : "https://s3.amazonaws.com/nngroup-staging/media/people/photos/Kathryn_1.jpg.1200x1200_q75_autocrop_crop-smart_upscale.jpg",
+      "likes" : "1222 likes"
+    },
+    {
+      "id": 7,
+      "name" : "Souske Aizen",
+      "img" : "https://pbs.twimg.com/media/E3nMCVnWUAAoMUb.jpg",
+      "likes" : "12 likes"
+    }
+  ],
+  "imgs" : [
+    {
+      "id":1,
+      "imger" : "https://picsum.photos/300"
+    },
+    {
+      "id":2,
+      "imger" : "https://picsum.photos/200"
+    },
+    {
+      "id":3,
+      "imger" : "https://picsum.photos/100"
+    }
+  ]
+}

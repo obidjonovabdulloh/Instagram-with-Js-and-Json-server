@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-wrapper">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1920px-Instagram_logo.svg.png"
+                class="brand-img" alt="">
+            <input type="text" class="search-box" placeholder="search">
+            <div class="nav-items">
+                <i class='bx bxs-home icon'></i>
+                <i class='bx bx-chat icon'></i>
+                <i class='bx bx-message-square-add icon'></i>
+                <i class='bx bxs-compass icon'></i>
+                <i class='bx bx-heart icon hrt'></i>
+                <div class="icon user-profile"></div>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <div class="main">
+            <div class="wrapper">
+                <div class="left-col">
+                    <div class="status-wrapper">
+                        <template id="template">
+                            <div class="status-card">
+                                <div class="profile-pic"><img alt="photo" class="imgg"></div>
+                                <p class="username"></p>
+                            </div>
+                        </template>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="main">
+            <div class="wrapper">
+                <div class="left-col">
+    
+                    <template id="templateCometns">
+                        <div class="post">
+                            <div class="info">
+                                <div class="user">
+                                    <div class="profile-pic"><img class="assa" alt=""></div>
+                                    <p class="username"></p>
+                                </div>
+                                <i class='bx bx-dots-horizontal-rounded options'></i>
+                            </div>
+                            <img src="https://picsum.photos/300" class="post-image" alt="">
+                            <div class="post-content">
+                                <div class="reaction-wrapper hert">
+                                    <i class='bx bx-heart icon'></i>
+                                    <i class='bx bx-comment icon'></i>
+                                    <i class='bx bx-paper-plane icon'></i>
+                                    <i class='bx bx-message-alt save icon'></i>
+                                </div>
+                                <p class="likes"></p>
+                                <p class="description"><span id="sapnn"></span> Lorem ipsum dolor sit amet consectetur,
+                                    adipisicing
+                                    elit. Pariatur tenetur veritatis placeat, molestiae impedit aut provident eum quo
+                                    natus
+                                    molestias?</p>
+                                <p class="post-time">2 minutes ago</p>
+                            </div>
+                            <div class="comment-wrapper">
+                                <i class='bx bx-smile icon'></i>
+                                <input type="text" class="comment-box" placeholder="Add a comment">
+                                <button class="comment-btn gth">post</button>
+                            </div>
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="main">
+            <div class="wrapper chu">
+                <div class="right-col">
+                    <div class="profile-card">
+                        <div class="profile-pic">
+                            <img src="./img/photo_2022-06-03_16-16-22.jpg" alt="">
+                        </div>
+                        <div>
+                            <a href="./infor.html" class="username">O_abdulloh</a>
+                            <p class="sub-text">kunaal kumar</p>
+                        </div>
+                        <button class="action-btn">switch</button>
+                    </div>
+                    <p class="suggestion-text">Suggestions for you</p>
+                    <template id="tempUsers">
+                        <div class="profile-card">
+                            <div class="profile-pic">
+                                <img class="imger" alt="">
+                            </div>
+                            <div>
+                                <a href="./infor.html" class="username qwe"></a>
+                                <p class="sub-text">followed bu user</p>
+                            </div>
+                            <button class="action-btn">follow</button>
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="./js/index/main.js"></script>
+</body>
+
+</html>
